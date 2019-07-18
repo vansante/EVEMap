@@ -1,0 +1,27 @@
+Option 1:
+
+Solarsystem		Security	Jumps		Lightyears		Isotopes		m3
+============================================================================
+Mollin			0.3			0			0				0				0
+Lermireve		0.2			1			7.4343			5104			765.6
+Sirkahri		0.4			2			10.343			7153			1034.2
+Total WP:					2			17.232			12343			1790.8
+
+Sirkahri		0.3			0			0				0				0
+Lermireve		0.2			1			7.4343			5104			765.6
+Mollin			0.4			2			10.343			7153			1034.2
+Total WP:					2			17.232			12343			1790.8
+
+Total:						4			34.455			25343			3634.3
+
+Option 2:
+
+Solarsystem		Security	Jumps		Lightyears		Isotopes		m3
+============================================================================
+Mollin			0.3			0			0				0				0
+Lermireve		0.2			1			7.4343			5104			765.6
+Sirkahri		0.4			2			10.343			7153			1034.2
+Lermireve		0.2			3			7.4343			5104			765.6
+Mollin			0.4			4			10.343			7153			1034.2
+
+							4			34.455			25343			3634.3

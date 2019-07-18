@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp spec="1.0" codebase="http://evemap.vansante.net/" href="evemap.jnlp">
+  <information>
+    <title>EVEMap</title>
+    <vendor>Paul van Santen</vendor>
+    <homepage href="http://evemap.vansante.net/" />
+    <description>EVEMap is an out of game map of the EVE universe. It shows all solarsystems and the connections between them. A lot of different display options and filters can be applied to get a good overview of the current status of the universe.It is also possible to plan routes using jumpgates and jumpdrives for ships that can use them. For the routeplanning there are also options like security status available.</description>
+    <description kind="short">A standalone map of the EVE universe.</description>
+    <offline-allowed />
+	<shortcut online="true">
+	    <desktop/>
+	    <menu submenu="EVEMap"/>
+	</shortcut>
+	<icon href="icon.gif" />
+    <icon kind="splash" href="icon.gif" />
+  </information>
+
+  <security>
+    <all-permissions/>
+  </security>
+  
+  <resources>
+    <j2se version="1.5+" initial-heap-size="50m" max-heap-size="120m" />
+	<jar href="evemap.jar" main="true" />
+	<jar href="jdom-1.0.jar" />
+	<extension href="http://download.java.net/media/jogl/builds/archive/jsr-231-webstart-current/jogl.jnlp" name="jogl"/>
+  </resources>
+
+  <application-desc main-class="net.vansante.EVEMap.Main" />
+</jnlp>

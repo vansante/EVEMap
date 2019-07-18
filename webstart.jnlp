@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp spec="1.0" codebase="http://pvs.homeip.net/evemap/" href="webstart.jnlp">
+  <information>
+    <title>EveMap</title>
+    <vendor>Paul van Santen</vendor>
+    <homepage href="http://pvs.homeip.net/evemap/" />
+    <description>EveMap</description>
+    <description kind="short">A standalone map of the eve universe.</description>
+    <offline-allowed />
+	<shortcut online="true">
+	    <desktop/>
+	    <menu submenu="EveMap"/>
+	</shortcut>
+  </information>
+
+  <resources>
+    <j2se version="1.5+" initial-heap-size="50m" max-heap-size="120m" />
+	<jar href="evemap.jar" main="true" />
+	<jar href="jdom-1.0.jar" />
+	<extension href="http://download.java.net/media/jogl/builds/archive/jsr-231-webstart-current/jogl.jnlp" name="jogl"/>
+  </resources>
+
+  <application-desc main-class="eveMap.Main" />
+</jnlp>

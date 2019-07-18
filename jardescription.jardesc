@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="D:/eclipse/EveMap/evemap.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/EveMap/jardescription.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/EveMap/manifest.mf" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/EveMap/data/constellations.dat"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{Location.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{SearchPanel.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{MapSettingsPanel.java"/>
+        <file path="/EveMap/images/arrow_up.png"/>
+        <file path="/EveMap/data/regions.dat"/>
+        <file path="/EveMap/images/removewaypoint.png"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{Solarsystem.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{Station.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{RoutePanel.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Route{Waypoint.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{AboutDialog.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data.Loaders{DataLoader.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Map{Renderer.java"/>
+        <file path="/EveMap/images/solarsystem.png"/>
+        <file path="/EveMap/images/waypoint.png"/>
+        <file path="/EveMap/images/icon.png"/>
+        <file path="/EveMap/images/zoom_in.png"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{EVEObject.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{Sidebar.java"/>
+        <file path="/EveMap/images/avoid.png"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{Menubar.java"/>
+        <file path="/EveMap/images/zoom.png"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data.Loaders{APILoader.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap{Tools.java"/>
+        <file path="/EveMap/images/arrow_left.png"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{Constellation.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{Faction.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{WaypointMenu.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Route{Pathfinder.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{SolarsystemMenu.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{Locations.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{Region.java"/>
+        <file path="/EveMap/images/arrow_down.png"/>
+        <file path="/EveMap/images/clear.png"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Map{MapView.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{RouteSettingsPanel.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{Alliance.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Map{MapControl.java"/>
+        <file path="/EveMap/images/zoom_out.png"/>
+        <file path="/EveMap/data/solarsystemjumps.dat"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Route{Route.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.Data{EVEObjects.java"/>
+        <file path="/EveMap/data/stations.dat"/>
+        <file path="/EveMap/data/factions.dat"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap.UI{BaseMenu.java"/>
+        <file path="/EveMap/images/arrow_right.png"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap{Constants.java"/>
+        <javaElement handleIdentifier="=EveMap/src&lt;net.vansante.EVEMap{Main.java"/>
+        <file path="/EveMap/data/solarsystems.dat"/>
+    </selectedElements>
+</jardesc>

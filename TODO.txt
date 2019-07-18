@@ -1,0 +1,21 @@
+============================
+||||||||||| TODO |||||||||||
+============================
+
+Selecting a star (and rotate around it)
+
+Alternative jump waypoint suggestions
+
+Color stars by: stations. EVE api: { assets, killlog (personal, corporation), marketorders (personal, corporation), POSes }
+
+Create a show info dialog for solarsystems which shows _all_ information
+
+Rebuild route panel with a decent jtable
+
+do picking with ogl lists
+
+constellation/region search
+
+List station services
+
+Solarsystem 3D View
